@@ -1,0 +1,21 @@
+//
+//  PrefixHeader.pch
+//  VaryHeightCell
+//
+//  Created by myjawdrops on 16/12/6.
+//  Copyright © 2016年 MyJawDrops. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "NSString+holdSize.h"
+#import "UIView+MJDExtension.h"
+#import "NSString+timeFormatter.h"
+
+#define kCellMargin 10
+
+#define kScreenW  [UIScreen mainScreen].bounds.size.width
+#define kScreenH  [UIScreen mainScreen].bounds.size.height
+
+#endif /* PrefixHeader_pch */
